@@ -1,9 +1,9 @@
-let edad = parseInt(prompt("ingresa tu edad"));
+let edad = parseFloat(prompt("ingresa tu edad"));
 
 if (edad < 18) {
     alert("Sos menor de 18");
 }
-else if ((edad > 18) && (edad < 60 )) {
+else if ((edad > 18,1) && (edad < 60,1 )) {
     alert("Ya podes laburar");
 }
 else if ((edad > 60) && (edad < 99 )){
