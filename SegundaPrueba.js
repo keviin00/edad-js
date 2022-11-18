@@ -1,4 +1,4 @@
-let edad = parseFloat(prompt("ingresa tu edad"));
+let edad = parseInt(prompt("ingresa tu edad"));
 
 if (edad < 18) {
     alert("Sos menor de 18");
